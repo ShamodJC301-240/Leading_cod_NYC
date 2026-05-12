@@ -1,0 +1,3 @@
+Data/raw/*.csv
+__pycache__/
+.DS_Store
