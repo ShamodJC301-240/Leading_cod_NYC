@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-# Project root directory. Basically clean_data.py.absolute_path().parent(src).parent(New_York_Leading_Cause_Of_Death)
+# Project root directory. Basically clean_data.py.absolute_path().parent()-->src.parent()-->New_York_Leading_Cause_Of_Death
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
